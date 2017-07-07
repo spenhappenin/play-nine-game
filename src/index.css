@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+span {
+  display: inline-block;
+  margin: 0.05em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #eee;
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.used {
+  background-color: #aaddaa;
+  color: #99bb99;
+  cursor: not-allowed;
+}
